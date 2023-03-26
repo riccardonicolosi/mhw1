@@ -28,7 +28,7 @@ header{
     font-family: 'Poppins', sans-serif;
     color: azure;
     font-size: 12px;
-    background-image: url(images/var.jpeg);
+    background-image: url(var.jpeg);
     background-size: cover;
     background-position-y: 10%;
     height: 500px;
