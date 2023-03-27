@@ -41,6 +41,17 @@ header{
 
 }
 
+
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+  }
+
 header nav{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 9px;
@@ -93,15 +104,6 @@ li{
 
 ol{
     margin: 0;
-}
-
-#overlay{
-    background-color: rgba(0, 0, 0, .3);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
 }
 
 p{
